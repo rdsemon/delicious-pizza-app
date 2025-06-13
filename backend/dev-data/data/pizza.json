@@ -3,20 +3,7 @@
     "name": "Margherita",
     "description": "Classic delight with fresh tomatoes, mozzarella, and basil.",
     "imageUrl": "/images/margherita.jpg",
-    "sizes": [
-      {
-        "size": "small",
-        "price": 5
-      },
-      {
-        "size": "medium",
-        "price": 8
-      },
-      {
-        "size": "large",
-        "price": 11
-      }
-    ],
+    "price": 999,
     "ingredients": ["tomato", "mozzarella", "basil"],
     "isVegetarian": true,
     "isSpicy": false,
@@ -26,20 +13,7 @@
     "name": "Veggie Supreme",
     "description": "A garden of flavors: capsicum, onions, tomatoes, and mushrooms.",
     "imageUrl": "/images/veggie-supreme.jpg",
-    "sizes": [
-      {
-        "size": "small",
-        "price": 6
-      },
-      {
-        "size": "medium",
-        "price": 9
-      },
-      {
-        "size": "large",
-        "price": 12
-      }
-    ],
+    "price": 300,
     "ingredients": ["capsicum", "onion", "tomato", "mushroom"],
     "isVegetarian": true,
     "isSpicy": false,
@@ -49,20 +23,7 @@
     "name": "Farmhouse",
     "description": "Topped with onion, capsicum, tomato & grilled mushroom.",
     "imageUrl": "/images/farmhouse.jpg",
-    "sizes": [
-      {
-        "size": "small",
-        "price": 6
-      },
-      {
-        "size": "medium",
-        "price": 9.5
-      },
-      {
-        "size": "large",
-        "price": 13
-      }
-    ],
+    "price": 560,
     "ingredients": ["onion", "capsicum", "tomato", "mushroom"],
     "isVegetarian": true,
     "isSpicy": false,
@@ -72,20 +33,7 @@
     "name": "Cheese & Corn",
     "description": "Loaded with cheese and golden sweet corn.",
     "imageUrl": "/images/cheese-corn.jpg",
-    "sizes": [
-      {
-        "size": "small",
-        "price": 5.5
-      },
-      {
-        "size": "medium",
-        "price": 8.5
-      },
-      {
-        "size": "large",
-        "price": 11.5
-      }
-    ],
+    "price": 700,
     "ingredients": ["cheese", "corn"],
     "isVegetarian": true,
     "isSpicy": false,
@@ -95,20 +43,7 @@
     "name": "Paneer Tikka",
     "description": "Spicy paneer chunks with onions and capsicum.",
     "imageUrl": "/images/paneer-tikka.jpg",
-    "sizes": [
-      {
-        "size": "small",
-        "price": 7
-      },
-      {
-        "size": "medium",
-        "price": 10
-      },
-      {
-        "size": "large",
-        "price": 13
-      }
-    ],
+    "price": 3000,
     "ingredients": ["paneer", "onion", "capsicum", "spices"],
     "isVegetarian": true,
     "isSpicy": true,
@@ -118,20 +53,7 @@
     "name": "Mushroom Magic",
     "description": "Mushrooms with extra cheese and oregano seasoning.",
     "imageUrl": "/images/mushroom-magic.jpg",
-    "sizes": [
-      {
-        "size": "small",
-        "price": 5.5
-      },
-      {
-        "size": "medium",
-        "price": 8.5
-      },
-      {
-        "size": "large",
-        "price": 11.5
-      }
-    ],
+    "price": 200,
     "ingredients": ["mushroom", "cheese", "oregano"],
     "isVegetarian": true,
     "isSpicy": false,
@@ -141,20 +63,7 @@
     "name": "Mexican Green Wave",
     "description": "Mexican herbs, crunchy onions, capsicum, and jalape\u00f1os.",
     "imageUrl": "/images/mexican-green-wave.jpg",
-    "sizes": [
-      {
-        "size": "small",
-        "price": 6.5
-      },
-      {
-        "size": "medium",
-        "price": 9.5
-      },
-      {
-        "size": "large",
-        "price": 13
-      }
-    ],
+    "price": 1300,
     "ingredients": ["onion", "capsicum", "jalape\u00f1os", "mexican herbs"],
     "isVegetarian": true,
     "isSpicy": true,
@@ -164,20 +73,7 @@
     "name": "Spinach Alfredo",
     "description": "Creamy alfredo sauce with spinach and garlic.",
     "imageUrl": "/images/spinach-alfredo.jpg",
-    "sizes": [
-      {
-        "size": "small",
-        "price": 6
-      },
-      {
-        "size": "medium",
-        "price": 9
-      },
-      {
-        "size": "large",
-        "price": 12
-      }
-    ],
+    "price": 1200,
     "ingredients": ["spinach", "alfredo sauce", "garlic"],
     "isVegetarian": true,
     "isSpicy": false,
@@ -187,20 +83,7 @@
     "name": "Four Cheese",
     "description": "Mozzarella, cheddar, parmesan, and gouda overload.",
     "imageUrl": "/images/four-cheese.jpg",
-    "sizes": [
-      {
-        "size": "small",
-        "price": 7
-      },
-      {
-        "size": "medium",
-        "price": 10
-      },
-      {
-        "size": "large",
-        "price": 14
-      }
-    ],
+    "price": 600,
     "ingredients": ["mozzarella", "cheddar", "parmesan", "gouda"],
     "isVegetarian": true,
     "isSpicy": false,
@@ -210,20 +93,7 @@
     "name": "Broccoli Delight",
     "description": "Healthy and fresh with broccoli, spinach, and corn.",
     "imageUrl": "/images/broccoli-delight.jpg",
-    "sizes": [
-      {
-        "size": "small",
-        "price": 6
-      },
-      {
-        "size": "medium",
-        "price": 9
-      },
-      {
-        "size": "large",
-        "price": 12
-      }
-    ],
+    "price": 300,
     "ingredients": ["broccoli", "spinach", "corn"],
     "isVegetarian": true,
     "isSpicy": false,
@@ -233,20 +103,7 @@
     "name": "Pepperoni",
     "description": "Classic American pizza loaded with pepperoni slices.",
     "imageUrl": "/images/pepperoni.jpg",
-    "sizes": [
-      {
-        "size": "small",
-        "price": 6
-      },
-      {
-        "size": "medium",
-        "price": 9
-      },
-      {
-        "size": "large",
-        "price": 13
-      }
-    ],
+    "price": 500,
     "ingredients": ["pepperoni", "cheese", "tomato sauce"],
     "isVegetarian": false,
     "isSpicy": false,
