@@ -37,7 +37,7 @@
     "ingredients": ["grilled chicken", "bbq sauce", "cheese"],
     "isVegetarian": false,
     "isSpicy": false,
-    "category": "BBQ"
+    "category": "Classic"
   },
   {
     "name": "Chicken Sausage",
@@ -67,7 +67,7 @@
     "ingredients": ["tuna", "olives", "onion"],
     "isVegetarian": false,
     "isSpicy": false,
-    "category": "Seafood"
+    "category": "Classic"
   },
   {
     "name": "Ham & Cheese",

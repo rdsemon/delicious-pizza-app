@@ -1,4 +1,8 @@
+const dotenv = require('dotenv');
+
 const mongoose = require('mongoose');
+
+dotenv.config({ path: './config.env' });
 
 async function main() {
   try {
@@ -9,5 +13,7 @@ async function main() {
     console.log('connection fail');
   }
 }
+
+main();
 
 module.exports = main;
