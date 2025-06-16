@@ -26,7 +26,7 @@ const sendErrProd = (err, res) => {
       .status(err.statusCode)
       .json({ status: err.status, message: err.message });
   } else {
-    // console.error('error❌', err);
+    console.error('error❌', err);
     res.status(500).json({ status: 'error', message: 'something went wrong' });
   }
 };
