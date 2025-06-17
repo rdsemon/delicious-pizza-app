@@ -11,6 +11,11 @@ const handleValidationError = (err) => {
   return new AppError(message, 400);
 };
 
+const handleJwtTokenError = () =>
+  new AppError('Token is expire please login again', 401);
+
+const handlWebTokenError = () =>
+  new AppError('Token is invalid please login again', 401);
 const sendErrDev = (err, res) => {
   res.status(err.statusCode).json({
     status: err.status,
@@ -44,10 +49,14 @@ module.exports = (err, req, res, next) => {
       name: err.name,
       message: err.message,
     };
-
+    // mongoose cast error
     if (error.name === 'CastError') error = handleCastError(error);
+    // mongoose invalid field
     if (error.name === 'ValidationError') error = handleValidationError(error);
-
+    // expire jwt token
+    if (error.name === 'TokenExpiredError') error = handleJwtTokenError(error);
+    // invalid jwt token
+    if (error.name === 'JsonWebTokenError') error = handlWebTokenError(error);
     sendErrProd(error, res);
   }
 };
