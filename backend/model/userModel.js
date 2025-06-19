@@ -27,6 +27,7 @@ const userSchema = new mongoose.Schema({
   password: {
     type: String,
     required: [true, 'A user must have password'],
+    select: false,
   },
 
   confirmPassword: {
@@ -80,10 +81,10 @@ userSchema.pre('save', async function (next) {
 // check password is correct
 
 userSchema.methods.checkPassword = async function (
-  currentPassword,
+  givenPassword,
   userPassword
 ) {
-  return await bcrypt.compare(currentPassword, userPassword);
+  return await bcrypt.compare(givenPassword, userPassword);
 };
 
 // check is the pwassword is changed
@@ -112,6 +113,19 @@ userSchema.methods.createPasswordResetToken = function () {
 
   return resetToken;
 };
+
+// excludes de-active users
+userSchema.pre(/^find/, function (next) {
+  // get the query operation
+  const { op } = this;
+
+  // Apply only to 'find' and 'findOne' and 'findOneAndDelete
+  if (op === 'find' || op === 'findOne' || op === 'findOneAndDelete') {
+    this.find({ active: { $ne: false } });
+  }
+
+  next();
+});
 
 const User = mongoose.model('User', userSchema);
 
