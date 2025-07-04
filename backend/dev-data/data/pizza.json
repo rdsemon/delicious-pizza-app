@@ -2,7 +2,7 @@
   {
     "name": "Pepperoni",
     "description": "Classic American pizza loaded with pepperoni slices.",
-    "imageUrl": "/images/pepperoni.jpg",
+    "imageUrl": "/img/pizzas/pepperoni.jpg",
     "price": 9.5,
     "ingredients": ["pepperoni", "cheese", "tomato sauce"],
     "isVegetarian": false,
@@ -12,7 +12,7 @@
   {
     "name": "Chicken Tikka",
     "description": "Spicy chicken tikka pieces with onion and capsicum.",
-    "imageUrl": "/images/chicken-tikka.jpg",
+    "imageUrl": "/img/pizzas/chicken-tikka.jpg",
     "price": 12.8,
     "ingredients": ["chicken tikka", "onion", "capsicum"],
     "isVegetarian": false,
@@ -22,7 +22,7 @@
   {
     "name": "Meat Feast",
     "description": "Sausage, pepperoni, ham, and bacon on one pizza.",
-    "imageUrl": "/images/meat-feast.jpg",
+    "imageUrl": "/img/pizzas/meat-feast.jpg",
     "price": 11.7,
     "ingredients": ["sausage", "pepperoni", "ham", "bacon"],
     "isVegetarian": false,
@@ -32,7 +32,7 @@
   {
     "name": "BBQ Chicken",
     "description": "Grilled chicken with tangy BBQ sauce and cheese.",
-    "imageUrl": "/images/bbq-chicken.jpg",
+    "imageUrl": "/img/pizzas/bbq-chicken.jpg",
     "price": 10.2,
     "ingredients": ["grilled chicken", "bbq sauce", "cheese"],
     "isVegetarian": false,
@@ -42,7 +42,7 @@
   {
     "name": "Chicken Sausage",
     "description": "Juicy chicken sausage with tomato sauce and cheese.",
-    "imageUrl": "/images/chicken-sausage.jpg",
+    "imageUrl": "/img/pizzas/chicken-sausage.jpg",
     "price": 8.4,
     "ingredients": ["chicken sausage", "cheese", "tomato sauce"],
     "isVegetarian": false,
@@ -52,7 +52,7 @@
   {
     "name": "Buffalo Chicken",
     "description": "Spicy buffalo chicken with ranch and mozzarella.",
-    "imageUrl": "/images/buffalo-chicken.jpg",
+    "imageUrl": "/img/pizzas/buffalo-chicken.jpg",
     "price": 13.0,
     "ingredients": ["buffalo chicken", "ranch", "mozzarella"],
     "isVegetarian": false,
@@ -62,7 +62,7 @@
   {
     "name": "Tuna Delight",
     "description": "A seafood classic with tuna, olives, and onions.",
-    "imageUrl": "/images/tuna-delight.jpg",
+    "imageUrl": "/img/pizzas/tuna-delight.jpg",
     "price": 9.9,
     "ingredients": ["tuna", "olives", "onion"],
     "isVegetarian": false,
@@ -72,7 +72,7 @@
   {
     "name": "Ham & Cheese",
     "description": "Simple and tasty combination of ham and cheese.",
-    "imageUrl": "/images/ham-cheese.jpg",
+    "imageUrl": "/img/pizzas/ham-cheese.jpg",
     "price": 7.6,
     "ingredients": ["ham", "cheese"],
     "isVegetarian": false,
@@ -82,7 +82,7 @@
   {
     "name": "Peri Peri Chicken",
     "description": "Fiery peri peri chicken with bell peppers.",
-    "imageUrl": "/images/peri-peri-chicken.jpg",
+    "imageUrl": "/img/pizzas/peri-peri-chicken.jpg",
     "price": 11.4,
     "ingredients": ["peri peri chicken", "bell peppers"],
     "isVegetarian": false,
@@ -92,7 +92,7 @@
   {
     "name": "Chicken & Mushroom",
     "description": "Tender chicken with grilled mushrooms and cheese.",
-    "imageUrl": "/images/chicken-mushroom.jpg",
+    "imageUrl": "/img/pizzas/chicken-mushroom.jpg",
     "price": 10.6,
     "ingredients": ["chicken", "mushrooms", "cheese"],
     "isVegetarian": false,
@@ -102,7 +102,7 @@
   {
     "name": "Margherita",
     "description": "Classic delight with fresh tomatoes, mozzarella, and basil.",
-    "imageUrl": "/images/margherita.jpg",
+    "imageUrl": "/img/pizzas/margherita.jpg",
     "price": 9.7,
     "ingredients": ["tomato", "mozzarella", "basil"],
     "isVegetarian": true,
@@ -112,7 +112,7 @@
   {
     "name": "Veggie Supreme",
     "description": "A garden of flavors: capsicum, onions, tomatoes, and mushrooms.",
-    "imageUrl": "/images/veggie-supreme.jpg",
+    "imageUrl": "/img/pizzas/veggie-supreme.jpg",
     "price": 11.3,
     "ingredients": ["capsicum", "onion", "tomato", "mushroom"],
     "isVegetarian": true,
@@ -122,7 +122,7 @@
   {
     "name": "Farmhouse",
     "description": "Topped with onion, capsicum, tomato & grilled mushroom.",
-    "imageUrl": "/images/farmhouse.jpg",
+    "imageUrl": "/img/pizzas/farmhouse.jpg",
     "price": 10.5,
     "ingredients": ["onion", "capsicum", "tomato", "mushroom"],
     "isVegetarian": true,
@@ -132,7 +132,7 @@
   {
     "name": "Cheese & Corn",
     "description": "Loaded with cheese and golden sweet corn.",
-    "imageUrl": "/images/cheese-corn.jpg",
+    "imageUrl": "/img/pizzas/cheese-corn.jpg",
     "price": 8.2,
     "ingredients": ["cheese", "corn"],
     "isVegetarian": true,
@@ -142,7 +142,7 @@
   {
     "name": "Paneer Tikka",
     "description": "Spicy paneer chunks with onions and capsicum.",
-    "imageUrl": "/images/paneer-tikka.jpg",
+    "imageUrl": "/img/pizzas/paneer-tikka.jpg",
     "price": 12.6,
     "ingredients": ["paneer", "onion", "capsicum", "spices"],
     "isVegetarian": true,
@@ -152,7 +152,7 @@
   {
     "name": "Mushroom Magic",
     "description": "Mushrooms with extra cheese and oregano seasoning.",
-    "imageUrl": "/images/mushroom-magic.jpg",
+    "imageUrl": "/img/pizzas/mushroom-magic.jpg",
     "price": 7.9,
     "ingredients": ["mushroom", "cheese", "oregano"],
     "isVegetarian": true,
@@ -162,7 +162,7 @@
   {
     "name": "Mexican Green Wave",
     "description": "Mexican herbs, crunchy onions, capsicum, and jalapeños.",
-    "imageUrl": "/images/mexican-green-wave.jpg",
+    "imageUrl": "/img/pizzas/mexican-green-wave.jpg",
     "price": 11.8,
     "ingredients": ["onion", "capsicum", "jalapeños", "mexican herbs"],
     "isVegetarian": true,
@@ -172,7 +172,7 @@
   {
     "name": "Spinach Alfredo",
     "description": "Creamy alfredo sauce with spinach and garlic.",
-    "imageUrl": "/images/spinach-alfredo.jpg",
+    "imageUrl": "/img/pizzas/spinach-alfredo.jpg",
     "price": 9.1,
     "ingredients": ["spinach", "alfredo sauce", "garlic"],
     "isVegetarian": true,
@@ -182,7 +182,7 @@
   {
     "name": "Four Cheese",
     "description": "Mozzarella, cheddar, parmesan, and gouda overload.",
-    "imageUrl": "/images/four-cheese.jpg",
+    "imageUrl": "/img/pizzas/four-cheese.jpg",
     "price": 13.4,
     "ingredients": ["mozzarella", "cheddar", "parmesan", "gouda"],
     "isVegetarian": true,
@@ -192,7 +192,7 @@
   {
     "name": "Broccoli Delight",
     "description": "Healthy and fresh with broccoli, spinach, and corn.",
-    "imageUrl": "/images/broccoli-delight.jpg",
+    "imageUrl": "/img/pizzas/broccoli-delight.jpg",
     "price": 8.7,
     "ingredients": ["broccoli", "spinach", "corn"],
     "isVegetarian": true,
