@@ -29,6 +29,10 @@ const pizzaSchema = new mongoose.Schema(
       type: String,
       // required: [true, 'Pizza must need an image'],
     },
+    quantity: {
+      type: Number,
+      default: 1,
+    },
     isVegetarian: {
       type: Boolean,
     },
