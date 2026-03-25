@@ -27,6 +27,8 @@ console.log(process.env.NODE_ENV);
 
 app.use(express.json({ limit: '10kb' }));
 
+app.use('/static', express.static('public'));
+
 app.use((req, res, next) => {
   if (req.body) req.body = sanitize(req.body);
   if (req.params) req.params = sanitize(req.params);
