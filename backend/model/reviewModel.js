@@ -18,7 +18,6 @@ const reviewSchema = new mongoose.Schema(
       type: Date,
       default: Date.now(),
     },
-    // parent reference
     pizza: {
       type: mongoose.Schema.ObjectId,
       ref: 'Pizza',
@@ -43,6 +42,7 @@ reviewSchema.pre(/^find/, function (next) {
   });
   next();
 });
+
 // calculate average rating
 reviewSchema.statics.calcAverageRating = async function (pizzaId) {
   const stats = await this.aggregate([
@@ -80,6 +80,7 @@ reviewSchema.post('save', function () {
 reviewSchema.pre(/^findOneAnd/, async function (next) {
   this.r = await this.model.findOne();
 });
+
 // calculationg after update and delete
 reviewSchema.post(/^findOneAnd/, async function (next) {
   this.r.constructor.calcAverageRating(this.r.pizza);
