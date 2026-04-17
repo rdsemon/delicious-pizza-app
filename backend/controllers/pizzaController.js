@@ -10,7 +10,7 @@ exports.getAllpizza = catchAsync(async (req, res, next) => {
     .status(200)
     .json({ status: 'success', totalPizza: data.length, data: { data } });
 });
-// get one pizzabuId
+// get one pizzabyId
 exports.getOnePizza = catchAsync(async (req, res, next) => {
   const data = await Pizza.findById(req.params.id);
 
