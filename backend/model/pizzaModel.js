@@ -14,6 +14,7 @@ const pizzaSchema = new mongoose.Schema(
     price: {
       type: Number,
       required: [true, 'Pizza must need a price'],
+      set: (value) => Math.round(value),
     },
     description: {
       type: String,
@@ -47,6 +48,10 @@ const pizzaSchema = new mongoose.Schema(
       set: (val) => Math.round(val * 10) / 10,
     },
     ratingQuantity: {
+      type: Number,
+      default: 0,
+    },
+    regularPrice: {
       type: Number,
       default: 0,
     },
