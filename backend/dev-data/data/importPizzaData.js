@@ -27,7 +27,9 @@ async function deletePizzaData() {
 }
 
 if (process.argv[2] === '--import') {
+  // node dev-data/data/importPizzaData.js --import
   importPizzaData();
 } else if (process.argv[2] === '--delete') {
+  // node dev-data/data/importPizzaData.js --delete
   deletePizzaData();
 }
