@@ -16,6 +16,7 @@ const handleJwtTokenError = () =>
 
 const handlWebTokenError = () =>
   new AppError('Token is invalid please login again', 401);
+
 const sendErrDev = (err, res) => {
   res.status(err.statusCode).json({
     status: err.status,
@@ -31,7 +32,6 @@ const sendErrProd = (err, res) => {
       .status(err.statusCode)
       .json({ status: err.status, message: err.message });
   } else {
-    console.error('error❌', err);
     res.status(500).json({ status: 'error', message: 'something went wrong' });
   }
 };
