@@ -2,9 +2,7 @@ const dotenv = require('dotenv');
 const express = require('express');
 const ratelimit = require('express-rate-limit');
 const helmet = require('helmet');
-
 const morgan = require('morgan');
-
 // express router module
 const pizzaRoute = require('./routers/pizzaRoute');
 const userRouter = require('./routers/userRoute');
